@@ -11,7 +11,8 @@ login = input("Gönderici Mail adresinizi giriniz: ")
 pw = input("Gönderici Mail adresinizin parolasını giriniz: ")
 mail.login(login,pw)
 mail1=input("Göndermek istediğiniz mail adresini yazınız: ")
-mail.sendmail(login,mail1,content)
-
-
-
+sayi = int(input("Kaçtane mail göndermek istiyorsunuz ?: "))
+for a in range(sayi):
+    mail.sendmail(login,mail1,content)
+    print("+\n", end="")
+print("BAŞARIYLA GÖNDERDİNİZ")
