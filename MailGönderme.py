@@ -30,8 +30,8 @@ try:
 
     for a in range(sayi):
         mail.sendmail(login,mail1,content)
-        print("+", end="")
-        print(sayi,"Succesful!")
+        print("+\n", end="")
+        print("Succesful!")
 except smtplib.SMTPAuthenticationError:
     print("Username or password wrong!")
     sys.exit()
