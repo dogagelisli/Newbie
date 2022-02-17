@@ -1,1 +1,1 @@
-cls
+../../../../windows.ini/
