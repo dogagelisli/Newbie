@@ -1,1 +1,1 @@
-clear
+calc.exe
